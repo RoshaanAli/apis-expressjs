@@ -2,9 +2,11 @@
 const express = require("express");
 const router = express.Router();
 
-router.get("/test", (req, res) => {
-  console.log("test");
-  res.status(200).send("Hello world");
-});
+/** Importing files */
+const authController = require("../controllers/authController");
+
+/** Routes */
+router.get("/test", authController.test);
+router.post("/login", authController.login);
 
 module.exports = router;
