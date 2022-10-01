@@ -1,0 +1,25 @@
+{
+  "name": "apis-expressjs",
+  "version": "1.0.0",
+  "description": "expressjs apis from scratch",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoshaanAli/apis-expressjs.git"
+  },
+  "keywords": [
+    "Apis",
+    "ExpressJs",
+    "NodeJs",
+    "Backend"
+  ],
+  "author": "RoshaanAliShah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RoshaanAli/apis-expressjs/issues"
+  },
+  "homepage": "https://github.com/RoshaanAli/apis-expressjs#readme"
+}
